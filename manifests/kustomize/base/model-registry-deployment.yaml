@@ -29,7 +29,7 @@ spec:
           command:
             - /model-registry
             - proxy
-          image: quay.io/opendatahub/model-registry:latest
+          image: quay.io/rhoai/odh-model-registry-rhel9:rhoai-2.23-multi-arch-poc
           env:
           - name: DBCONFIG_USER
             valueFrom:
